@@ -1,0 +1,51 @@
+.SlideGame {
+    /*
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    */
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 60px;
+    border: 1px solid blue;
+}
+
+.Tile {
+    position: absolute;
+    border: 1px solid black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    transition-property: top, left;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+
+.Moves {
+    position: absolute;
+    display: flex;
+    align-items: baseline;
+}
+
+.Moves button {
+    margin-left: 5px;
+}
+
+.TileCount {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-bottom: 4px;
+    background-color: #ececec;
+    text-align: center;
+}
+
+.TileCount button {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+#leaderboard-spot {
+    position: relative;
+}
