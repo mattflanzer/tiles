@@ -1,3 +1,3 @@
 A small tile sliding game written in React with React-Motion animation.
 
-![alt text](https://github.com/mattflanzer/tiles/blob/main/screencap.jpg?raw=true)
+![Tiles](https://raw.githubusercontent.com/mattflanzer/tiles/readme-image/screencap.jpg)
